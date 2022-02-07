@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+
+
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: rgb(29, 145, 44);
+    padding:30px;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+a,
+a:visited {
+    color:purple;
+    text-decoration: none;
+}
+
+p {
+    line-height: 36px;
+    margin: 35px 0;
+    font-size: 1.4rem;
+    
+
+}
+
+header {
+    display: grid;
+    grid-template-columns:  37% 63%;
+    grid-template-rows: 9fr 1fr;
+    min-width:100vw;
+    max-width: 100vw;
+    max-height:100vh;
+    min-height:100vh;
+    color:purple;
+    
+    background: rgba(186, 196, 206, 0.979);
+}
+
+.button {
+    border: 2px solid rgba(212, 16, 16, 0);
+    background: rgb(59, 197, 77);
+    border-radius: 50px;
+    padding: 30px 30px;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 1.08rem;
+    transition: .4s ease;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+    margin:15px;
+}
+
+.e1{
+    margin-left: 10%;
+}
+
+.e3{
+    grid-row-start: auto;
+    grid-column-start:1;
+    grid-column-end: 3;
+    min-height: 30px;
+}
+
