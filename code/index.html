@@ -1,46 +1,373 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <!-- Propriétés de la page -->
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LEAF</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
-    <link rel="icon" type="image/png" href="/design_ideas/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <title>Responsive Sticky Navbar | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-    <!-- ENTETE  -->
-    
-
 <body>
-    <header>
-        <div class="container-header e1">
-            <div>
-               <img src="/design_ideas/favicon.png" alt="Logo de LEAF" />
-               <h1>LEAF</h1>
-               <h2>Lupus Expert system for the Assessment of Fatigue</h2>
-            </div>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="#">LEAF ~ Lupus</a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
-        <div class="container-header e2">
-            <div class="enfant2">
-                <h2>Hello</h2>
-                <p>I am <strong><span style="color:rgb(29, 145, 44);font-style:bold;font-size:1.7rem;"> Lea</span></strong>, your virtual assistant.</p>
-                <p>Here, I will answer your <strong>questions about  and its determinants</strong> in systemic lupus erythematosus.</p>
-                <p><strong>If you have not already, make sure to complete and validate the <a href="https://www.lupus.org/news/global-survey-of-people-with-lupus-finds-decrease-access-healthcare" class="link">LEAF survey</strong></a> in order to assess your pattern of fatigue and analyse your fatigue predictors.</p>
-                <p>I hope the LEAF website will provide helpful assistance in your lupus journey.</p>
-                <a href="#summary" class="button learnmore"><span style="color:black;"> more about fatigue in systemic lupus</span></a>
-            </div>
-        </div>
-        <div class="container-header e3">
-            <p><span style="background-color: rgb(230, 227, 105);color:black;"> by <strong>Lou KAWKA (MD)</strong> and <strong>Professor Laurent ARNAUD (MD, PhD)</strong>, from the French National Reference Center for Autoimmune Diseases of Strasbourg.</span></p>
-        </div> 
-    </header>
-    <p>lorem</p>
+        <li><a href="#fatigue">Fatigue</a></li>
+        <li><a href="#anxiety">Anxiety</a></li>
+        <li><a href="#sleep">Sleep</a></li>
+        <li><a href="#depression">Depression</a></li>
+        <li><a href="#pain">Pain</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner"></div>
+
+  <h1>Your questions about Lupus</h1>
+  <div class="faq-container" id="fatigue">
+    <h2>About <span style="color: green;">Fatigue</span> in Lupus</h2>
+    <div class="faq">
+      <h3 class="faq-title">
+        What is fatigue?
+      </h3>
+
+      <p class="faq-text">
+        Dunno
+      </p>
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        What do you call someone with no body and no nose?
+      </h3>
+      <p class="faq-text">
+        Nobody knows.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        What does it mean?
+      </h3>
+      <p class="faq-text">
+        Dunno
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Do you come tomorrow?
+      </h3>
+      <p class="faq-text">
+        Dunno!
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div id="anxiety"></div>
+    
+   
+  </div>
+
+
+
+
+  <div class="faq-container">
+    <h2>About <span style="color: green;">Anxiety</span> in Lupus</h2>
+    <div class="faq ">
+      <h3 class="faq-title">
+        Why are you anxious ?
+      </h3>
+
+      <p class="faq-text">
+        Because life is so much and you are so little
+      </p>
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        What should I do when I'm anxiou?
+      </h3>
+      <p class="faq-text">
+        Contemplate death.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        How can I become healthy?
+      </h3>
+      <p class="faq-text">
+        Eat more vegetables. 
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        What should I eat to feel less anxious?
+      </h3>
+      <p class="faq-text">
+        Read the previous question.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Are spinachs good to reduce anxiety?
+      </h3>
+      <p class="faq-text">
+        All vegetables are good, except for topinambour.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+  <div id="sleep"></div>
+
+
+  <div class="faq-container" >
+    <h2>About <span style="color: green;">Sleep</span> in Lupus</h2>
+    <div class="faq ">
+      <h3 class="faq-title">
+        Why should you go to bed?
+      </h3>
+
+      <p class="faq-text">
+        To sleep.
+      </p>
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        Why should you take the slide?
+      </h3>
+      <p class="faq-text">
+        To slip.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        If there's two men in the bed, what are they wearing?
+      </h3>
+      <p class="faq-text">
+        Two slip.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div id="depression"></div>
+    
+  </div>
+
+
+
+
+
+  <div class="faq-container">
+    <h2>About <span style="color: green;">Depression</span> in Lupus</h2>
+    <div class="faq ">
+      <h3 class="faq-title">
+        Why should we trust you?
+      </h3>
+
+      <p class="faq-text">
+        Because we are doctors for god's sake !
+      </p>
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        Can you be happy and depressed at the same time?
+      </h3>
+      <p class="faq-text">
+        Ask Lou Kawka.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        What the hell is depression?
+      </h3>
+      <p class="faq-text">
+        Ask Lou Kawka.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        How does it feel to be depressed ?
+      </h3>
+      <p class="faq-text">
+        Ask Lou Kawka.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Why are you depressed ?
+      </h3>
+      <p class="faq-text">
+        Ask Lou Kawka.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div id="pain"></div>
+  </div>
+
+
+
+
+  <div class="faq-container" >
+    <h2>About <span style="color: green;">Pain</span> in Lupus</h2>
+    <div class="faq ">
+      <h3 class="faq-title">
+        Why do you feel pain?
+      </h3>
+
+      <p class="faq-text">
+        Because you are sick.
+      </p>
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        Why do you buy pain?
+      </h3>
+      <p class="faq-text">
+        Because you are not french, otherwise you would have buy baguette!
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Why should you fight against suffering in life?
+      </h3>
+      <p class="faq-text">
+        Because you are sick.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Why do you have to suffer?
+      </h3>
+      <p class="faq-text">
+        Because you are sick.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        What is pain?
+      </h3>
+      <p class="faq-text">
+        Because you are sick.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="f-container">
+      <h3>Created by Lou KAWKA and Professor Laurent ARNAUD from the French National Reference Center for Autoimmune Diseases of Strasbourg</h2>
+    </div>
+  </footer>
+ 
+
+  <script src="/main.js"></script>
 
 </body>
-
 </html>
